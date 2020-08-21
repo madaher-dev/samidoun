@@ -91,6 +91,7 @@ const Home = () => {
                   style={{ borderRadius: 25 }}
                   variant='contained'
                   color='secondary'
+                  href='/about'
                 >
                   More about Samidoun
                 </Button>
@@ -128,11 +129,12 @@ const Home = () => {
                   style={{ borderRadius: 25 }}
                   variant='contained'
                   color='secondary'
+                  href='/donate'
                 >
                   To Samidoun
                 </Button>
               </Grid>
-              <Grid item xs={6} sm={6}>
+              <Grid item xs={12} sm={6}>
                 <Typography variant='h6'>Peer To peer Contribution</Typography>
                 <Typography variant='h6' gutterBottom>
                   مساهمة مباشرة

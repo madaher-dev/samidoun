@@ -5,3 +5,8 @@ export const CLEAR_ERRORS = 'CLEAR_ERRORS';
 
 export const SET_ALERT = 'SET_ALERT';
 export const REMOVE_ALERT = 'REMOVE_ALERT';
+
+export const SESSION = 'SESSION';
+export const SESSION_SUCCESS = 'SESSION_SUCCESS';
+export const SESSION_FAIL = 'SESSION_FAIL';
+export const CLEAR_SESSION = 'CLEAR_SESSION';

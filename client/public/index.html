@@ -14,6 +14,21 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>Samidoun</title>
+    <script
+      src="https://epayment.areeba.com/checkout/version/55/checkout.js"
+      data-error="errorCallback"
+      data-cancel="cancelCallback"
+      data-complete="http://localhost:3000/receiptPage"
+    ></script>
+
+    <script type="text/javascript">
+      function errorCallback(error) {
+        console.log(JSON.stringify(error));
+      }
+      function cancelCallback() {
+        console.log('Payment cancelled');
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

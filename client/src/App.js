@@ -7,6 +7,8 @@ import Contact from './components/pages/Contact';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Alerts from './components/layout/Alerts';
+import Donate from './components/pages/Donate';
+import Musicians from './components/pages/Musicians';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import store from './Store';
 import { Provider } from 'react-redux';
@@ -40,7 +42,9 @@ function App() {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/about' component={About} />
+                <Route exact path='/donate' component={Donate} />
                 <Route exact path='/contact' component={Contact} />
+                <Route exact path='/musicians' component={Musicians} />
               </Switch>
               <Footer />
             </Fragment>
